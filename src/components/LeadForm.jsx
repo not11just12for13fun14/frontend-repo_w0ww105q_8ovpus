@@ -75,10 +75,10 @@ export default function LeadForm() {
 
           <div className="rounded-2xl bg-white border border-slate-200 p-6 sm:p-8 shadow-sm flex flex-col justify-center">
             <ul className="space-y-4 text-slate-700">
-              <li className="flex items-start gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-emerald-500"/>Lower your operating expenses immediately with cheaper power.</li>
-              <li className="flex items-start gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-yellow-400"/>We handle design, permits, installation and maintenance.</li>
-              <li className="flex items-start gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-sky-400"/>Performance guaranteed with 24/7 monitoring.</li>
-              <li className="flex items-start gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-indigo-400"/>Ideal for warehouses, retail, logistics and office buildings.</li>
+              <li className="flex items-start gap-3"><span className="mt-0.5 text-base" aria-hidden>💸</span>Lower your operating expenses immediately with cheaper power.</li>
+              <li className="flex items-start gap-3"><span className="mt-0.5 text-base" aria-hidden>🧰</span>We handle design, permits, installation and maintenance.</li>
+              <li className="flex items-start gap-3"><span className="mt-0.5 text-base" aria-hidden>📈</span>Performance guaranteed with 24/7 monitoring.</li>
+              <li className="flex items-start gap-3"><span className="mt-0.5 text-base" aria-hidden>🏢</span>Ideal for warehouses, retail, logistics and office buildings.</li>
             </ul>
           </div>
         </div>

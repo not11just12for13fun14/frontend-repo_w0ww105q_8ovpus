@@ -27,10 +27,10 @@ export default function Hero() {
               We design, install and maintain your commercial solar system with no capital expense. You pay less for power from day one and lock in predictable rates.
             </p>
             <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 text-slate-700 text-sm">
-              <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 rounded-full bg-emerald-500"/>£0 upfront capex</li>
-              <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 rounded-full bg-yellow-400"/>Guaranteed savings</li>
-              <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 rounded-full bg-sky-400"/>Turnkey install</li>
-              <li className="flex items-center gap-2"><span className="h-1.5 w-1.5 rounded-full bg-indigo-400"/>Monitoring & maintenance</li>
+              <li className="flex items-center gap-2"><span className="text-base" aria-hidden>💷</span>£0 upfront capex</li>
+              <li className="flex items-center gap-2"><span className="text-base" aria-hidden>✅</span>Guaranteed savings</li>
+              <li className="flex items-center gap-2"><span className="text-base" aria-hidden>🛠️</span>Turnkey install</li>
+              <li className="flex items-center gap-2"><span className="text-base" aria-hidden>📡</span>Monitoring & maintenance</li>
             </ul>
           </div>
 
