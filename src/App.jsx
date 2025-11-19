@@ -1,3 +1,4 @@
+import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import LeadForm from './components/LeadForm'
 import CTA from './components/CTA'
@@ -5,6 +6,7 @@ import CTA from './components/CTA'
 function App() {
   return (
     <div className="min-h-screen bg-white">
+      <Navbar />
       <Hero />
       <div id="lead">
         <LeadForm />
